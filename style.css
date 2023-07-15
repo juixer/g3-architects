@@ -200,7 +200,7 @@
 }
 
 @media screen and (min-width:578px) and (max-width:998px) {
-    .header_container, .quick_feature_container{
+    .header_container, .quick_feature_container,.feature_container{
         flex-direction: column;
         padding: 20px;
     }
@@ -212,5 +212,21 @@
     }
     .quick_feature_container h1{
         margin-top: 20px;
+    }
+    .feature_container{
+        margin: 100px;
+    }
+    .img{
+        margin-left: 0px;
+    }
+    .img img{
+        width: 100%;
+    }
+    .year{
+        position:static;
+        margin-top: 10px;
+    }
+    .year_box{
+        width: auto;
     }
 }
