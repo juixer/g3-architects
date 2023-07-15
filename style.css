@@ -67,3 +67,34 @@
     margin: 0 auto;
     margin-bottom: 45px;
 }
+.banner img{
+    width: 100%;
+}
+
+
+
+
+/* responsive codes */
+@media screen and (max-width:578px) {
+    .header_container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .info_container{
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (min-width:578px) and (max-width:998px) {
+    .header_container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .info_container{
+        padding: 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+}
